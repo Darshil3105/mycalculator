@@ -1,0 +1,15 @@
+.btn{
+    @apply text-gray-600 border border-gray-600 bg-transparent hover:bg-gray-600 hover:text-white rounded;
+}
+
+@media screen(mobile) {
+    .btn{
+      @apply py-2 px-2 text-lg;
+    }
+}
+
+@media screen(xl) {
+    .btn{
+      @apply py-2 px-8 text-2xl;
+    }
+}

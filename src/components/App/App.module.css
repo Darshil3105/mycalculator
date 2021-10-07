@@ -1,0 +1,33 @@
+@layer base{
+  body{
+    background-color: #E9E9E9;
+  }
+}
+
+.maincontainer {
+  @apply container shadow-2xl border-solid border-2 border-black rounded-xl mx-auto h-auto mt-10 border-green-500;
+}
+
+.heading{
+  @apply  text-center font-sans font-semibold text-gray-500;
+}
+
+@media screen(mobile) {
+  .maincontainer{
+    @apply w-9/12;
+  }
+
+  .heading{
+    @apply text-3xl;
+  }
+}
+
+@media screen(xl) {
+  .maincontainer{
+    @apply w-3/12;
+  }
+
+  .heading{
+    @apply text-4xl;
+  }
+}

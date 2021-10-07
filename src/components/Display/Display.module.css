@@ -1,0 +1,27 @@
+.calculationContainer{
+    @apply box-border border-t border-b border-black relative mt-4 break-all overflow-auto;
+}
+
+.displayCalculation{
+    @apply absolute right-0 font-normal px-2;
+}   
+
+@media screen(mobile) {
+    .calculationContainer{
+      @apply h-16;
+    }
+
+    .displayCalculation{
+        @apply text-2xl;
+    }
+}
+
+@media screen(xl) {
+    .calculationContainer{
+      @apply h-20;
+    }
+
+    .displayCalculation{
+        @apply text-3xl;
+    }
+}
